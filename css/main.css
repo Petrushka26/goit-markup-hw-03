@@ -60,7 +60,7 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid tomato;
+    
 }
 
 /* header*/ 
@@ -285,7 +285,10 @@ body {
 .names-list .item {
     width: 270px;
     margin-right: 30px;
+    background-color: var(--primary-white-color);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    
 
 }
 .names-list .item:last-child {
@@ -299,9 +302,11 @@ body {
 .description {
     padding: 30px;
     background-color: var(--primary-white-color);
+    
 }
 
 .names-list .name {
+    margin-bottom: 10px;
     color:var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -312,6 +317,10 @@ body {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.19;
+}
+.name-profession,
+.name {
+    margin: 0;
 }
 
 .section.secondary {
