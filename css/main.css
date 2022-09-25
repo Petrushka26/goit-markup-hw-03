@@ -96,7 +96,7 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--black-text-color);
+    color: var(--accent-text-color);
 }
 
 .site-nav .link.current {
@@ -168,6 +168,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    cursor: pointer;
 }
 
 .btn-filter:hover,
@@ -205,10 +206,7 @@ body {
 }
 
 .item > .cont-example  {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 20px 24px ;
 }
 /* filters*/
 
@@ -379,6 +377,9 @@ footer {
 .logo.studio {
     color: var(--primary-white-color);
     margin-right: 0;
+}
+.logo.studio:hover {
+    color: var(--accent-text-color);
 }
 
 footer .city {
