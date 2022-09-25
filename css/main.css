@@ -42,7 +42,7 @@ body {
 }
 
 .logo.studio {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .logo .accent {
     color: var(--accent-text-color);
@@ -205,6 +205,8 @@ body {
 }
 
 .item > .cont-example  {
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -271,6 +273,7 @@ body {
 }
 
 .section-title.feature {
+    margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -332,6 +335,8 @@ body {
 }
 
 .option {
+    margin-top: 4px;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.9;
 }
@@ -391,7 +396,6 @@ footer .info {
     letter-spacing: 0.03em;
     text-decoration-line: none;
 }
-.city,
-.info {
-    padding-bottom: 9px;
+.city {
+    margin-bottom: 9px;
 }
